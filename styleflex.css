@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+.container
+{
+    border: 6px solid black;
+      
+    /* display: inline-flex;the container only takes the width only to accomdate the childrem */
+    display: flex;
+
+   height: 800px;
+   align-items: baseline;
+
+}
+.flex-item
+{
+    color: black;
+    font-size: 1.5rem;;
+    padding: 1rem;;
+    text-align: center;
+}
+.item-1
+{
+    background-color: yellow;
+    padding-bottom: 3rem;
+}
+.item-2
+{
+    background-color: pink;
+    padding-bottom: 5rem;
+}
+.item-3
+{
+    background-color: tan;
+    font-size: 3rem;
+}
+.item-4
+{
+    background-color:navajowhite;
+}
+.item-5{
+    background-color:blue
+}
+.item-6
+{
+    background-color: greenyellow;
+}
+.item-7
+{
+    background-color: orange;
+}
+.item-8
+{
+    background-color: blueviolet;
+}
+.item-9
+{
+    background-color: khaki;
+}
