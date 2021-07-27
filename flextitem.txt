@@ -1,0 +1,7 @@
+Flerx item Porperties
+--Order
+-flex-grow
+--flex-shrink
+--flex-basis
+--flex
+--alin self
