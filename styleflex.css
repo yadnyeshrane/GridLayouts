@@ -24,24 +24,32 @@ body{
     font-size: 1.5rem;;
     padding: 1rem;;
     text-align: center;
+    width: 15rem;
 }
 .item-1
 {
     background-color: yellow;
     padding-bottom: 3rem;
+    /* flex-grow: 1; */
+
+    
 }
 .item-2
 {
     background-color: pink;
     padding-bottom: 5rem;
+    order :3;
+    /* flex-grow: 1; */
 }
 .item-3
 {
     background-color: tan;
     font-size: 3rem;
+    flex-shrink: 2;
 }
 .item-4
 {
+    flex-shrink: 0;
     background-color:navajowhite;
 }
 .item-5{
@@ -50,10 +58,13 @@ body{
 .item-6
 {
     background-color: greenyellow;
+    order: 1;
+    /* flex-grow: 1; */
 }
 .item-7
 {
     background-color: orange;
+    order:5;
 }
 .item-8
 {
