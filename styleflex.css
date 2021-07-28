@@ -51,6 +51,7 @@ body{
 {
     flex-shrink: 0;
     background-color:navajowhite;
+
 }
 .item-5{
     background-color:blue
@@ -65,6 +66,7 @@ body{
 {
     background-color: orange;
     order:5;
+    flex-basis: 900px;
 }
 .item-8
 {

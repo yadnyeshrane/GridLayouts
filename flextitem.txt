@@ -2,6 +2,19 @@ Flerx item Porperties
 --Order-the by default order is zero and for same order the elmennst are arramged according to the html alignment
 -flex-grow-by default flex-grow is 0 so when we haver flex-grow size of 1 of one flex item and when we grow the flex-size pf 3 =1*3
 --flex-shrink-By Default the lfx-shrik is 1 and is Raltive like if one flex item is shimk by 25px and other item who has flex-shrimk 4 will be decreased by 100px
---flex-basis
---flex
+--flex-basis-BHacially it is used set the width of the flex item never set width we can specify width as px, percentage,rem.By Default the flex basis is auto ad its woerl only when the flex direction is row if coloum then it set the height of it
+--flex-By Default the flex:2 2 30px means grow shrink and basis 
 --alin self
+
+/only value unit les number
+flex:2;
+/only value width height
+flex:20em;
+flex:50px
+/Two values flex-grow|Flex-basis
+flex:1 30px
+/Two values flex-grow|Flex-shrink
+flex:1 2
+//Thre vaues Flex-grow|Flex-Shrink|Flex basis
+flex:1 1 3;
+
